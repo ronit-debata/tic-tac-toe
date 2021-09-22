@@ -1,0 +1,53 @@
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    color: #4ea8de;
+    font-size: 45px;
+}
+
+#b1, #b2, #b3, #b4, #b5,
+#b6, #b7, #b8, #b9 {
+    width: 80px;
+    height: 60px;
+    margin: 0 5px 0 5px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #e2ece9;
+}
+
+#but {
+    box-sizing: border-box;
+    background-color: #e2ece9;
+    color: #4ea8de;
+    width: 95px;
+    height: 40px;
+    border: 2px solid #4ea8de;
+    margin: auto;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+#but:hover {
+    background-color: #4ea8de;
+    color: white;
+}
+
+#print {
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+    color: dodgerblue;
+    font-size: 20px;
+}
+
+#main {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+input:hover {
+    cursor: pointer;
+}
